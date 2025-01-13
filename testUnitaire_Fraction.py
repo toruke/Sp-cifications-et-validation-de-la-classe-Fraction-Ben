@@ -100,6 +100,3 @@ class TestFraction(unittest.TestCase):
         self.assertTrue(f1.is_adjacent_to(f2))
         self.assertFalse(f1.is_adjacent_to(f3))
 
-
-if __name__ == "__main__":
-    unittest.main()
